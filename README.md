@@ -10,4 +10,5 @@ Could change those values to user input.
 Could also add physics - gravity, motion, energy conservation.
 But I'm not gonna try to do that in C++
 
-/home/liam/Pictures/Screenshot from 2021-09-28 12-05-12.png
+![image](https://user-images.githubusercontent.com/60711204/135133603-a230f0f1-06c7-449b-89e8-32ae30463112.png)
+
