@@ -167,7 +167,7 @@ void Controller::InitializeGraphics()
 		cerr << "Init Error \n " << SDL_GetError() << endl;
 		return;
 	}
-	_window = SDL_CreateWindow("Pendulum (No Physics)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1600,1600, SDL_WINDOW_SHOWN);
+	_window = SDL_CreateWindow("Pendulum (No Physics)", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 	if (_window == nullptr)
 	{
 		cerr << "Window Error \n " << SDL_GetError() << endl;
